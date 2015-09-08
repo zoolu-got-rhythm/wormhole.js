@@ -5,13 +5,11 @@
 var inst1 = sT(this);
 
 // method chaining
-
+inst1.checkDimensions().sequence();
 
 function beam(){
   this.setInterval(beam, 1000); // should this be at the end of the func? recursion
   inst1.checkDimensions().sequence();
 }
-
-beam();
 
 // master
