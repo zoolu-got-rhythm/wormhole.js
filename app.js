@@ -13,3 +13,5 @@ function beam(){
 }
 
 beam();
+
+// add animation loop feature
