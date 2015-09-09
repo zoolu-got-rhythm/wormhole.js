@@ -46,7 +46,6 @@ sequence: function(divide) {
 
   document.body.appendChild(box);
 
-
   // nest this in a requestAnimationFrame and pass
   // the grow function to warp radius
   var i = 0;
@@ -66,9 +65,7 @@ sequence: function(divide) {
 
   beam(); // starts the recursive cycle.
 
-
   return this;
-
 },
 
 // expands each unique instance.
