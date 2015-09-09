@@ -1,0 +1,14 @@
+canvas{
+  background: #555;
+}
+
+body{
+  /* reset */
+  margin:0px;
+
+}
+
+#version{
+  position:fixed;
+  left: 10px; 
+}
