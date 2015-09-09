@@ -53,15 +53,15 @@ sequence: function(divide) {
 
   // animate, stop frame approach
   function beam(){
-  self.eraze(box);
-  // recursion? a function calling itself: 60 calls/frames per second?
-  window.requestAnimationFrame(beam);
+     self.eraze(box);
 
-  i++;
+     // recursion? a function calling itself: 60 calls/frames per second?
+     window.requestAnimationFrame(beam);
 
-  var grow = self.expand(i);
-  self.drawCircle(box, grow);
+     i++;
 
+     var grow = self.expand(i);
+     self.drawCircle(box, grow);
   }
 
   beam(); // starts the recursive cycle.
