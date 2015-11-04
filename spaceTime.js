@@ -80,7 +80,6 @@ getCentre: function(axis) {
   // width axis
   if(axis === "x"){
     return this.width / 2;
-
   }
   // height axis
   else if(axis === "y"){
@@ -99,8 +98,6 @@ drawCircle: function(c, radius) {
 
    var x = this.getCentre("x");
    var y = this.getCentre("y");
-   //console.log(x);
-   //console.log(y);
 
    // define the arc path
    ctx.beginPath();
